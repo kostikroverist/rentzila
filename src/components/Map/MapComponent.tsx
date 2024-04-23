@@ -28,7 +28,7 @@ const MapComponent: FC<Props> = ({ data, filterData, setFilterData }) => {
           point.location as L.LatLngBoundsExpression | L.LatLngExpression
         )
       ) {
-        console.log(newMarkers);
+        
         newMarkers.push(point);
       }
     }
